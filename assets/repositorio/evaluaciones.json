@@ -1,0 +1,65 @@
+{
+  "metadatos": { "version": 1, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "evaluaciones.json" },
+  "datos": [
+    {
+      "id": "e1",
+      "titulo": "Anatomía - Sistema óseo",
+      "materia": "Anatomía",
+      "tipo": "Cuestionario",
+      "cantidad": 20,
+      "minutos": 30,
+      "icono": "favorite",
+      "color": "#E63946",
+      "preguntas": [
+        { "enunciado": "¿Qué hueso articula el fémur proximalmente?", "opciones": ["Tibia", "Pelvis (acetábulo)", "Peroné", "Sacro"], "correcta": 1, "explicacion": "La cabeza femoral se articula con el acetábulo del hueso coxal." },
+        { "enunciado": "¿Cuántas vértebras cervicales tiene el ser humano?", "opciones": ["5", "7", "12", "33"], "correcta": 1, "explicacion": "La columna cervical está formada por siete vértebras C1-C7." },
+        { "enunciado": "El hueso más largo del cuerpo es:", "opciones": ["Húmero", "Tibia", "Fémur", "Peroné"], "correcta": 2, "explicacion": "El fémur es el hueso más largo y resistente del cuerpo humano." }
+      ]
+    },
+    {
+      "id": "e2",
+      "titulo": "Fisiología - Sistema nervioso",
+      "materia": "Fisiología",
+      "tipo": "Cuestionario",
+      "cantidad": 15,
+      "minutos": 20,
+      "icono": "monitor_heart",
+      "color": "#12619E",
+      "preguntas": [
+        { "enunciado": "El potencial de acción se debe principalmente al flujo de:", "opciones": ["Sodio y potasio", "Calcio y magnesio", "Cloro y bicarbonato", "Hierro"], "correcta": 0, "explicacion": "La despolarización depende de la entrada de Na+ y la repolarización de la salida de K+." },
+        { "enunciado": "La hormona que reduce la glucosa sanguínea es:", "opciones": ["Glucagón", "Insulina", "Cortisol", "Adrenalina"], "correcta": 1, "explicacion": "La insulina facilita la captación de glucosa por las células." },
+        { "enunciado": "El intercambio gaseoso ocurre en:", "opciones": ["Bronquios", "Tráquea", "Alvéolos", "Pleura"], "correcta": 2, "explicacion": "Los alvéolos son la unidad funcional del intercambio gaseoso." }
+      ]
+    },
+    {
+      "id": "e3",
+      "titulo": "Patología - Neoplasias",
+      "materia": "Patología",
+      "tipo": "Cuestionario",
+      "cantidad": 25,
+      "minutos": 40,
+      "icono": "science",
+      "color": "#3B5BA5",
+      "preguntas": [
+        { "enunciado": "Una neoplasia maligna se caracteriza por:", "opciones": ["Crecimiento encapsulado", "Metástasis e invasión", "Diferenciación completa", "Ausencia de mitosis"], "correcta": 1, "explicacion": "La capacidad de invadir tejidos y metastatizar define la malignidad." },
+        { "enunciado": "El proceso de formación de un tumor se denomina:", "opciones": ["Apoptosis", "Necrosis", "Carcinogénesis", "Fibrosis"], "correcta": 2, "explicacion": "La carcinogénesis es el conjunto de etapas que originan un cáncer." },
+        { "enunciado": "¿Cuál es un factor de riesgo modificable?", "opciones": ["Edad", "Genética", "Tabaquismo", "Sexo"], "correcta": 2, "explicacion": "El tabaquismo es un factor de riesgo prevenible y modificable." }
+      ]
+    },
+    {
+      "id": "e4",
+      "titulo": "Microbiología - Bacterias",
+      "materia": "Microbiología",
+      "tipo": "Simulacro",
+      "cantidad": 20,
+      "minutos": 30,
+      "icono": "coronavirus",
+      "color": "#1B9AAA",
+      "preguntas": [
+        { "enunciado": "Las bacterias son organismos:", "opciones": ["Eucariotas", "Procariotas", "Virales", "Fúngicos"], "correcta": 1, "explicacion": "Las bacterias carecen de núcleo definido: son procariotas." },
+        { "enunciado": "La pared bacteriana contiene:", "opciones": ["Celulosa", "Quitina", "Peptidoglicano", "Colágeno"], "correcta": 2, "explicacion": "El peptidoglicano es el componente estructural característico." },
+        { "enunciado": "Los betalactámicos actúan sobre:", "opciones": ["ADN", "Pared celular", "Ribosomas 80S", "Membrana"], "correcta": 1, "explicacion": "Inhiben la síntesis de la pared celular bacteriana." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+name: Release APK
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Dependencias
+        run: flutter pub get
+
+      - name: Compilar APK por arquitectura
+        env:
+          NUKI_API_URL: ${{ secrets.NUKI_API_URL }}
+          NUKI_APP_KEY: ${{ secrets.NUKI_APP_KEY }}
+        run: |
+          flutter build apk --release --split-per-abi \
+            --dart-define=NUKI_API_URL="$NUKI_API_URL" \
+            --dart-define=NUKI_APP_KEY="$NUKI_APP_KEY"
+          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk nuki-arm64-v8a.apk
+          cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk nuki-armeabi-v7a.apk
+
+      - name: Publicar release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            nuki-arm64-v8a.apk
+            nuki-armeabi-v7a.apk
+          name: Nuki ${{ github.ref_name }}
+          generate_release_notes: true

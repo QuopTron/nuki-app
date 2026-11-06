@@ -1,0 +1,80 @@
+{
+  "metadatos": { "version": 2, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "modelos.json" },
+  "datos": [
+    {
+      "nombre": "Corazón humano",
+      "icono": "favorite",
+      "colores": ["#E63946", "#7B1420"],
+      "archivo": "assets/modelos/corazon.glb",
+      "descripcion": "Explora el corazón en 3D. Puedes rotarlo, acercarlo y alejarlo para observar sus estructuras.",
+      "estructuras": [
+        { "nombre": "Aurícula derecha", "funcion": "Recibe la sangre desoxigenada de las venas cavas y la envía al ventrículo derecho." },
+        { "nombre": "Ventrículo izquierdo", "funcion": "Impulsa la sangre oxigenada hacia la aorta para distribuirla por todo el cuerpo." },
+        { "nombre": "Válvula mitral", "funcion": "Evita el reflujo de sangre desde el ventrículo izquierdo hacia la aurícula izquierda." },
+        { "nombre": "Aorta", "funcion": "Arteria principal que transporta sangre oxigenada desde el ventrículo izquierdo." },
+        { "nombre": "Arteria pulmonar", "funcion": "Lleva la sangre desoxigenada desde el ventrículo derecho hasta los pulmones." }
+      ],
+      "dato": "El corazón late unas 100.000 veces al día."
+    },
+    {
+      "nombre": "Cerebro",
+      "icono": "psychology",
+      "colores": ["#7C5CBF", "#3A2A68"],
+      "archivo": "assets/modelos/cerebro.glb",
+      "descripcion": "Gira el encéfalo y descubre sus lóbulos, surcos y principales áreas funcionales.",
+      "estructuras": [
+        { "nombre": "Lóbulo frontal", "funcion": "Coordina el movimiento voluntario, el lenguaje expresivo y las funciones ejecutivas." },
+        { "nombre": "Lóbulo parietal", "funcion": "Procesa la sensibilidad somática, la orientación espacial y la integración sensorial." },
+        { "nombre": "Cerebelo", "funcion": "Ajusta la coordinación, el equilibrio y la precisión de los movimientos." },
+        { "nombre": "Tronco encefálico", "funcion": "Controla funciones vitales como la respiración, la frecuencia cardíaca y el estado de alerta." },
+        { "nombre": "Hipocampo", "funcion": "Consolida la memoria declarativa y participa en la navegación espacial." }
+      ],
+      "dato": "El cerebro consume cerca del 20 % de la energía del cuerpo."
+    },
+    {
+      "nombre": "Pulmones",
+      "icono": "air",
+      "colores": ["#4EA5E0", "#1B6A9C"],
+      "archivo": "assets/modelos/pulmones.glb",
+      "descripcion": "Observa los lóbulos pulmonares, bronquios y la superficie de intercambio gaseoso.",
+      "estructuras": [
+        { "nombre": "Lóbulo superior", "funcion": "Ventila la porción apical del pulmón y recibe aire de los bronquios segmentarios superiores." },
+        { "nombre": "Lóbulo inferior", "funcion": "Ventila la porción basal pulmonar, la de mayor volumen en la respiración profunda." },
+        { "nombre": "Bronquios", "funcion": "Conducen el aire desde la tráquea hacia los bronquiolos y los alvéolos." },
+        { "nombre": "Alvéolos", "funcion": "Realizan el intercambio de oxígeno y dióxido de carbono con la sangre capilar." },
+        { "nombre": "Pleura", "funcion": "Membrana serosa que reduce la fricción y permite el deslizamiento pulmonar." }
+      ],
+      "dato": "Los alvéolos suman unos 70 m² de superficie de intercambio."
+    },
+    {
+      "nombre": "Riñón",
+      "icono": "water_drop",
+      "colores": ["#F4A62A", "#9E3B1F"],
+      "archivo": "assets/modelos/rinones.glb",
+      "descripcion": "Explora la corteza, la médula y las nefronas del riñón desde cualquier ángulo.",
+      "estructuras": [
+        { "nombre": "Corteza renal", "funcion": "Alberga los corpúsculos renales y la mayor parte de la filtración plasmática." },
+        { "nombre": "Médula", "funcion": "Contiene asas de Henle y conductos que concentran la orina." },
+        { "nombre": "Pelvis renal", "funcion": "Recoge la orina de los cálices y la conduce hacia el uréter." },
+        { "nombre": "Nefronas", "funcion": "Unidad funcional que filtra la sangre y forma la orina." },
+        { "nombre": "Uréter", "funcion": "Transporta la orina desde el riñón hasta la vejiga mediante contracciones peristálticas." }
+      ],
+      "dato": "Cada riñón filtra alrededor de 180 litros de sangre al día."
+    },
+    {
+      "nombre": "Esqueleto humano",
+      "icono": "accessibility_new",
+      "colores": ["#F5F7FB", "#94A3B8"],
+      "archivo": "assets/modelos/esqueleto.glb",
+      "descripcion": "Recorre el esqueleto completo y reconoce los grandes grupos óseos del cuerpo humano.",
+      "estructuras": [
+        { "nombre": "Cráneo", "funcion": "Protege el encéfalo y aloja los órganos de los sentidos especiales." },
+        { "nombre": "Columna vertebral", "funcion": "Sostiene el tronco, protege la médula espinal y permite la movilidad del raquis." },
+        { "nombre": "Caja torácica", "funcion": "Protege el corazón y los pulmones y participa en la mecánica respiratoria." },
+        { "nombre": "Pelvis", "funcion": "Transmite el peso del tronco a los miembros inferiores y protege órganos pélvicos." },
+        { "nombre": "Fémur", "funcion": "Hueso más largo del cuerpo; soporta carga y permite la marcha." }
+      ],
+      "dato": "El adulto tiene 206 huesos; el recién nacido nace con cerca de 270."
+    }
+  ]
+}

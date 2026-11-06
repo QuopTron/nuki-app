@@ -1,0 +1,101 @@
+{
+  "metadatos": { "version": 1, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "materias.json" },
+  "datos": [
+    {
+      "id": "ana",
+      "nombre": "Anatomía",
+      "descripcion": "Estructura y función del cuerpo humano",
+      "icono": "favorite",
+      "color": "#E63946",
+      "completadas": 3,
+      "inscrita": true,
+      "temas": [
+        { "titulo": "Sistema cardiovascular", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Sistema óseo", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Sistema nervioso", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Sistema respiratorio", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Sistema renal", "tipo": "Apuntes y guía de estudio", "completado": false }
+      ]
+    },
+    {
+      "id": "fis",
+      "nombre": "Fisiología",
+      "descripcion": "Funciones y procesos del organismo",
+      "icono": "monitor_heart",
+      "color": "#12619E",
+      "completadas": 2,
+      "inscrita": true,
+      "temas": [
+        { "titulo": "Sistema nervioso", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Sistema cardiovascular", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Sistema respiratorio", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Sistema renal", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Sistema digestivo", "tipo": "Apuntes y guía de estudio", "completado": false }
+      ]
+    },
+    {
+      "id": "bio",
+      "nombre": "Biología Celular",
+      "descripcion": "La célula y sus procesos vitales",
+      "icono": "biotech",
+      "color": "#2EC4B6",
+      "completadas": 4,
+      "inscrita": true,
+      "temas": [
+        { "titulo": "Membrana celular", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Núcleo y ADN", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Mitocondrias", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Ciclo celular", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Apoptosis", "tipo": "Apuntes y guía de estudio", "completado": false }
+      ]
+    },
+    {
+      "id": "gen",
+      "nombre": "Genética",
+      "descripcion": "Herencia y variación genética",
+      "icono": "hub",
+      "color": "#7C5CBF",
+      "completadas": 1,
+      "inscrita": true,
+      "temas": [
+        { "titulo": "Genética mendeliana", "tipo": "Apuntes y guía de estudio", "completado": true },
+        { "titulo": "Mutaciones", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Genética molecular", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Epigenética", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Terapia génica", "tipo": "Apuntes y guía de estudio", "completado": false }
+      ]
+    },
+    {
+      "id": "mic",
+      "nombre": "Microbiología",
+      "descripcion": "Microorganismos y enfermedad",
+      "icono": "coronavirus",
+      "color": "#1B9AAA",
+      "completadas": 0,
+      "inscrita": true,
+      "temas": [
+        { "titulo": "Bacterias", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Virus", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Hongos", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Parásitos", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Antibióticos", "tipo": "Apuntes y guía de estudio", "completado": false }
+      ]
+    },
+    {
+      "id": "pat",
+      "nombre": "Patología",
+      "descripcion": "Estudio de la enfermedad",
+      "icono": "science",
+      "color": "#3B5BA5",
+      "completadas": 0,
+      "inscrita": true,
+      "temas": [
+        { "titulo": "Inflamación", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Neoplasias", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Trastornos hemodinámicos", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Enfermedades infecciosas", "tipo": "Apuntes y guía de estudio", "completado": false },
+        { "titulo": "Patología ambiental", "tipo": "Apuntes y guía de estudio", "completado": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "metadatos": { "version": 1, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "foro.json" },
+  "datos": [
+    {
+      "id": 1,
+      "autor": "Alejandra V.",
+      "iniciales": "AV",
+      "tiempo": "Hace 12 min",
+      "materia": "Anatomía",
+      "contenido": "¿Alguien tiene un resumen del sistema nervioso? Me cuesta entender la parte de los ganglios.",
+      "reacciones": 12,
+      "comentarios": [
+        { "autor": "Juan M.", "iniciales": "JM", "texto": "Yo subí un esquema a apuntes, te puede servir.", "tiempo": "Hace 8 min" },
+        { "autor": "Lucía C.", "iniciales": "LC", "texto": "Los ganglios son acumulaciones de neuronas fuera del SNC.", "tiempo": "Hace 5 min" }
+      ]
+    },
+    {
+      "id": 2,
+      "autor": "Juan M.",
+      "iniciales": "JM",
+      "tiempo": "Hace 1 h",
+      "materia": "Fisiología",
+      "contenido": "Creo que el potencial de acción se puede simplificar con el esquema que subió Lucía. ¡Está muy bueno!",
+      "reacciones": 8,
+      "comentarios": [
+        { "autor": "Lucía C.", "iniciales": "LC", "texto": "¡Gracias! Lo subo actualizado esta noche.", "tiempo": "Hace 40 min" }
+      ]
+    },
+    {
+      "id": 3,
+      "autor": "Lucía C.",
+      "iniciales": "LC",
+      "tiempo": "Hace 3 h",
+      "materia": "Patología",
+      "contenido": "¿Qué opinan sobre el uso de antibióticos en infecciones virales? A mí me parece que no debería ser tan común.",
+      "reacciones": 15,
+      "comentarios": [
+        { "autor": "Jorge Q.", "iniciales": "JQ", "texto": "No tienen efecto sobre virus y favorecen resistencia.", "tiempo": "Hace 2 h" },
+        { "autor": "María L.", "iniciales": "ML", "texto": "Depende si hay sobreinfección bacteriana.", "tiempo": "Hace 1 h" }
+      ]
+    },
+    {
+      "id": 4,
+      "autor": "Mariana R.",
+      "iniciales": "MR",
+      "tiempo": "Hace 5 h",
+      "materia": "General",
+      "contenido": "Comparto mi método de estudio: Pomodoro de 25 min + repaso activo con preguntas. ¡Me subió el promedio!",
+      "reacciones": 21,
+      "comentarios": []
+    }
+  ]
+}

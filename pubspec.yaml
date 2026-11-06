@@ -1,0 +1,35 @@
+name: nuki
+description: "Nuki - plataforma académica de medicina con contenido versionado en Git."
+publish_to: 'none'
+version: 1.0.1+4
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  crypto: ^3.0.8
+  cupertino_icons: ^1.0.9
+  file_picker: ^13.3.0
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  image_picker: ^1.2.4
+  model_viewer_plus: ^1.10.0
+  open_filex: ^5.0.0
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+  video_player: ^2.11.1
+  webview_flutter: ^4.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/repositorio/
+    - assets/modelos/
+    - assets/images/

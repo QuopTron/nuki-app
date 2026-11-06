@@ -1,0 +1,22 @@
+{
+  "repositorio": "nuki-contenido",
+  "metadatos": {
+    "version": 1,
+    "rama": "main",
+    "actualizado": "2026-10-29T09:00:00Z",
+    "mensaje": "Contenido académico inicial",
+    "ruta": "indice.json"
+  },
+  "datos": {
+    "materias": "materias.json",
+    "recursos": "recursos.json",
+    "reels": "reels.json",
+    "evaluaciones": "evaluaciones.json",
+    "foro": "foro.json",
+    "apuntes": "apuntes.json",
+    "notificaciones": "notificaciones.json",
+    "usuarios": "usuarios.json",
+    "modelos": "modelos.json",
+    "perfil": "perfil.json"
+  }
+}

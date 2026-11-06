@@ -1,0 +1,10 @@
+{
+  "metadatos": { "version": 1, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "apuntes.json" },
+  "datos": [
+    { "materia": "Anatomía", "titulo": "Sistema cardiovascular", "fecha": "12 apuntes", "icono": "favorite", "color": "#E63946" },
+    { "materia": "Fisiología", "titulo": "Potencial de acción", "fecha": "8 apuntes", "icono": "monitor_heart", "color": "#12619E" },
+    { "materia": "Patología", "titulo": "Neoplasias", "fecha": "6 apuntes", "icono": "science", "color": "#3B5BA5" },
+    { "materia": "Microbiología", "titulo": "Bacterias", "fecha": "5 apuntes", "icono": "coronavirus", "color": "#1B9AAA" },
+    { "materia": "Biología Celular", "titulo": "Ciclo celular", "fecha": "9 apuntes", "icono": "biotech", "color": "#2EC4B6" }
+  ]
+}

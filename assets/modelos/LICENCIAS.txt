@@ -1,0 +1,21 @@
+Modelos anatómicos 3D incluidos en Nuki
+========================================
+
+Los archivos .glb de esta carpeta provienen de la biblioteca gratuita
+Grab3D (https://grab3d.com/models/anatomy/) y están publicados bajo la
+licencia CC0 1.0 Universal (dominio público):
+https://creativecommons.org/publicdomain/zero/1.0/
+
+No requieren atribución, pero se reconoce la fuente:
+
+- corazon.glb   -> "Human Heart" (Grab3D, CC0)
+- cerebro.glb   -> "Human Brain" (Grab3D, CC0)
+- pulmones.glb  -> "Human Lungs" (Grab3D, CC0)
+- rinones.glb   -> "Human Kidney" (Grab3D, CC0)
+- esqueleto.glb -> "Human Skeleton" (Grab3D, CC0)
+
+Los modelos originales se optimizaron con glTF Transform: simplificación
+de malla, cuantización, texturas WebP y compresión Draco. Conservan el
+detalle anatómico visible y pesan cerca de 5 MB en total.
+
+Los modelos son recursos educativos y no sustituyen material clínico validado.

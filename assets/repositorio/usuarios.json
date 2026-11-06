@@ -1,0 +1,12 @@
+{
+  "metadatos": { "version": 1, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "usuarios.json" },
+  "datos": [
+    { "id": "u1", "nombre": "Ana Ruiz", "correo": "ana.ruiz@usfx.bo", "rol": "Estudiante", "iniciales": "AR", "estado": "Activo", "materias": 6, "reportes": 0 },
+    { "id": "u2", "nombre": "Carlos Mendoza", "correo": "carlos.m@usfx.bo", "rol": "Administrador", "iniciales": "CM", "estado": "Activo", "materias": 0, "reportes": 0 },
+    { "id": "u3", "nombre": "Luis Fernández", "correo": "luis.f@usfx.bo", "rol": "Estudiante", "iniciales": "LF", "estado": "Activo", "materias": 4, "reportes": 0 },
+    { "id": "u4", "nombre": "María López", "correo": "maria.l@usfx.bo", "rol": "Estudiante", "iniciales": "ML", "estado": "Baneado", "materias": 2, "reportes": 3 },
+    { "id": "u5", "nombre": "Jorge Quispe", "correo": "jorge.q@usfx.bo", "rol": "Docente", "iniciales": "JQ", "estado": "Activo", "materias": 0, "reportes": 1 },
+    { "id": "u6", "nombre": "Valeria Soto", "correo": "valeria.s@usfx.bo", "rol": "Estudiante", "iniciales": "VS", "estado": "Activo", "materias": 5, "reportes": 0 },
+    { "id": "u7", "nombre": "Diego Rojas", "correo": "diego.r@usfx.bo", "rol": "Estudiante", "iniciales": "DR", "estado": "Baneado", "materias": 1, "reportes": 5 }
+  ]
+}

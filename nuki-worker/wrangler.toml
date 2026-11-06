@@ -1,0 +1,18 @@
+name = "nuki-api"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+account_id = "b7d54194aed8bb1603b8bc16cbda0618"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[observability]
+enabled = true
+
+[[ratelimits]]
+name = "LIMITADOR"
+namespace_id = "2001"
+[ratelimits.simple]
+limit = 120
+period = 60

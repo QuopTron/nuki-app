@@ -1,0 +1,11 @@
+{
+  "metadatos": { "version": 1, "rama": "main", "actualizado": "2026-10-29T09:00:00Z", "ruta": "notificaciones.json" },
+  "datos": [
+    { "titulo": "Nueva respuesta en el foro", "detalle": "Alejandra V. respondió en Anatomía", "hace": "Hace 12 min", "tipo": "Foro", "icono": "forum", "color": "#12619E", "leida": false },
+    { "titulo": "Nuevo material en Fisiología", "detalle": "Guía de sistema nervioso disponible", "hace": "Hace 1 h", "tipo": "Materias", "icono": "library_books", "color": "#2EC4B6", "leida": false },
+    { "titulo": "Evaluación calificada", "detalle": "Patología - Neoplasias: 17/20", "hace": "Hace 3 h", "tipo": "Materias", "icono": "task_alt", "color": "#E63946", "leida": false },
+    { "titulo": "Clase en vivo hoy", "detalle": "Fisiología a las 17:00 - Aula 4", "hace": "Hace 5 h", "tipo": "Sistema", "icono": "videocam", "color": "#7C5CBF", "leida": false },
+    { "titulo": "Nuevo comentario en tu apunte", "detalle": "Microbiología - Bacterias", "hace": "Hace 6 h", "tipo": "Materias", "icono": "comment", "color": "#4EA5E0", "leida": false },
+    { "titulo": "¡Racha de 3 días!", "detalle": "Sigue así, tu constancia suma", "hace": "Ayer", "tipo": "Sistema", "icono": "local_fire_department", "color": "#F4A62A", "leida": true }
+  ]
+}
