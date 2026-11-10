@@ -139,7 +139,7 @@ function autorizado(request, env) {
 
 async function manejarApi(request, env, url) {
   if (url.pathname === "/api/version") {
-    const version = "1.0.1";
+    const version = "1.0.2";
     const release = `https://github.com/${APP_REPO}/releases/latest`;
     const apk = `${release}/download/${APK_ARM64}`;
     try {
@@ -227,7 +227,7 @@ async function manejarApi(request, env, url) {
   return error("Método no permitido", 405);
 }
 
-function paginaDescarga(version = "1.0.1") {
+function paginaDescarga(version = "1.0.2") {
   const base = `https://github.com/${APP_REPO}/releases/latest/download`;
   const descargaArm64 = `${base}/nuki-arm64-v8a.apk`;
   const descargaArm = `${base}/nuki-armeabi-v7a.apk`;

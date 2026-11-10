@@ -38,11 +38,13 @@ jobs:
             --dart-define=NUKI_APP_KEY="$NUKI_APP_KEY"
           cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk nuki-arm64-v8a.apk
           cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk nuki-armeabi-v7a.apk
+          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk nuki.apk
 
       - name: Publicar release
         uses: softprops/action-gh-release@v2
         with:
           files: |
+            nuki.apk
             nuki-arm64-v8a.apk
             nuki-armeabi-v7a.apk
           name: Nuki ${{ github.ref_name }}

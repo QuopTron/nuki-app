@@ -21,31 +21,35 @@ Future<void> _editarPerfil(BuildContext context, EstadoNuki estado) async {
         'Editar perfil',
         style: TextStyle(fontWeight: FontWeight.w800),
       ),
-      content: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          TextField(
-            controller: nombre,
-            decoration: const InputDecoration(hintText: 'Nombre completo'),
-            textCapitalization: TextCapitalization.words,
-          ),
-          const SizedBox(height: 10),
-          TextField(
-            controller: correo,
-            keyboardType: TextInputType.emailAddress,
-            decoration: const InputDecoration(hintText: 'Correo electrónico'),
-          ),
-          const SizedBox(height: 10),
-          TextField(
-            controller: iniciales,
-            maxLength: 2,
-            textCapitalization: TextCapitalization.characters,
-            decoration: const InputDecoration(
-              hintText: 'Iniciales (2 letras)',
-              counterText: '',
+      content: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: nombre,
+              decoration: const InputDecoration(hintText: 'Nombre completo'),
+              textCapitalization: TextCapitalization.words,
+              textInputAction: TextInputAction.next,
             ),
-          ),
-        ],
+            const SizedBox(height: 10),
+            TextField(
+              controller: correo,
+              keyboardType: TextInputType.emailAddress,
+              decoration: const InputDecoration(hintText: 'Correo electrónico'),
+              textInputAction: TextInputAction.next,
+            ),
+            const SizedBox(height: 10),
+            TextField(
+              controller: iniciales,
+              maxLength: 2,
+              textCapitalization: TextCapitalization.characters,
+              decoration: const InputDecoration(
+                hintText: 'Iniciales (2 letras)',
+                counterText: '',
+              ),
+            ),
+          ],
+        ),
       ),
       actions: [
         TextButton(
@@ -72,7 +76,7 @@ Future<void> _editarPerfil(BuildContext context, EstadoNuki estado) async {
       iniciales: letras.isEmpty ? cuenta.iniciales : letras,
     );
     if (context.mounted) {
-      mostrarMensaje(context, 'Perfil actualizado en usuarios.json.');
+      mostrarMensaje(context, 'Perfil actualizado correctamente.');
     }
   }
   nombre.dispose();

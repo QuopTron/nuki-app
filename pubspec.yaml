@@ -1,7 +1,7 @@
 name: nuki
 description: "Nuki - plataforma académica de medicina con contenido versionado en Git."
 publish_to: 'none'
-version: 1.0.1+4
+version: 1.0.2+5
 
 environment:
   sdk: ^3.11.4
@@ -33,3 +33,4 @@ flutter:
     - assets/repositorio/
     - assets/modelos/
     - assets/images/
+    - assets/iconosMateria/

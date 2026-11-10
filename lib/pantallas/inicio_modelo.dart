@@ -94,7 +94,11 @@ class _ResultadosBusqueda extends StatelessWidget {
               padding: const EdgeInsets.all(12),
               child: Row(
                 children: [
-                  IconoMateria(icono: materia.icono, color: materia.color),
+                  IconoMateria(
+                    icono: materia.icono,
+                    color: materia.color,
+                    asset: materia.iconoAsset,
+                  ),
                   const SizedBox(width: 10),
                   Expanded(
                     child: Text(

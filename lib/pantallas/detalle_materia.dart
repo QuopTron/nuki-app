@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../nucleo/contenido_temas.dart';
 import '../nucleo/estado.dart';
 import '../nucleo/modelos.dart';
 import '../nucleo/tema.dart';
@@ -10,6 +11,7 @@ import 'modelos3d.dart';
 part 'detalle_materia_contenido.dart';
 part 'detalle_materia_portada.dart';
 part 'detalle_materia_recursos.dart';
+part 'detalle_materia_tema.dart';
 
 class DetalleMateriaPantalla extends StatefulWidget {
   const DetalleMateriaPantalla({super.key, required this.materia});

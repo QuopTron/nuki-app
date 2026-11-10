@@ -51,7 +51,12 @@ class _TarjetaMateria extends StatelessWidget {
       padding: const EdgeInsets.all(15),
       child: Row(
         children: [
-          IconoMateria(icono: materia.icono, color: materia.color, tamano: 50),
+          IconoMateria(
+            icono: materia.icono,
+            color: materia.color,
+            tamano: 50,
+            asset: materia.iconoAsset,
+          ),
           const SizedBox(width: 12),
           Expanded(
             child: Column(

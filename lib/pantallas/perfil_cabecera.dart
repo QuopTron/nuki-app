@@ -58,10 +58,10 @@ class _Cabecera extends StatelessWidget {
                   usuario.esAdmin
                       ? 'Coordinador académico'
                       : usuario.esDocente
-                      ? 'Docente de Medicina'
+                      ? 'Docente'
                       : usuario.esInvitado
                       ? 'Explorando como invitado'
-                      : '${usuario.rol} de Medicina',
+                      : usuario.rol,
                   style: const TextStyle(color: Colores.gris, fontSize: 12),
                 ),
                 const SizedBox(height: 8),

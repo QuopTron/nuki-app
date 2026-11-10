@@ -8,7 +8,7 @@ exponer el token de GitHub dentro del APK.
 - API y landing: `nuki-worker/`
 - Datos privados: `QuopTron/nuki-data`
 - Descarga: https://nuki-api.guttural-engineer.workers.dev
-- Última versión: 1.0.1
+- Última versión: 1.0.2
 
 ## Compilar
 

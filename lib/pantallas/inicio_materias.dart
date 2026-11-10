@@ -24,6 +24,7 @@ class _MateriaMini extends StatelessWidget {
                   icono: materia.icono,
                   color: materia.color,
                   tamano: 38,
+                  asset: materia.iconoAsset,
                 ),
                 const SizedBox(width: 9),
                 Expanded(

@@ -50,13 +50,40 @@ class IconoMateria extends StatelessWidget {
     required this.icono,
     required this.color,
     this.tamano = 46,
+    this.asset,
   });
   final IconData icono;
   final Color color;
   final double tamano;
+  final String? asset;
 
   @override
   Widget build(BuildContext context) {
+    final archivo = asset;
+    if (archivo != null) {
+      return Container(
+        width: tamano,
+        height: tamano,
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          border: Border.all(color: color.withValues(alpha: .28), width: 1.4),
+          boxShadow: [
+            BoxShadow(
+              color: color.withValues(alpha: .22),
+              blurRadius: tamano * .28,
+              offset: Offset(0, tamano * .1),
+            ),
+          ],
+        ),
+        clipBehavior: Clip.antiAlias,
+        child: Image.asset(
+          archivo,
+          fit: BoxFit.cover,
+          filterQuality: FilterQuality.high,
+          errorBuilder: (_, _, _) => Icon(icono, color: color, size: tamano * .5),
+        ),
+      );
+    }
     return Container(
       width: tamano,
       height: tamano,

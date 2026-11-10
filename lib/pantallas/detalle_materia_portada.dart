@@ -34,11 +34,38 @@ class _Portada extends StatelessWidget {
             right: 8,
             top: -14,
             bottom: -14,
-            child: Visor3D(
-              icono: materia.icono,
-              colores: [Colors.white, materia.color],
-              tamano: 190,
-            ),
+            child: materia.iconoAsset == null
+                ? Visor3D(
+                    icono: materia.icono,
+                    colores: [Colors.white, materia.color],
+                    tamano: 190,
+                  )
+                : Center(
+                    child: Container(
+                      width: 158,
+                      height: 158,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(
+                          color: Colors.white.withValues(alpha: .55),
+                          width: 3,
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .22),
+                            blurRadius: 24,
+                            offset: const Offset(0, 12),
+                          ),
+                        ],
+                      ),
+                      clipBehavior: Clip.antiAlias,
+                      child: Image.asset(
+                        materia.iconoAsset!,
+                        fit: BoxFit.cover,
+                        filterQuality: FilterQuality.high,
+                      ),
+                    ),
+                  ),
           ),
           Positioned(
             left: 18,

@@ -54,15 +54,7 @@ class _ContenidoMateria extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(bottom: 8),
             child: Tarjeta(
-              onTap: () {
-                estado.alternarTema(materia, i);
-                mostrarMensaje(
-                  context,
-                  materia.temas[i].completado
-                      ? 'Tema completado. ¡Bien!'
-                      : 'Tema marcado como pendiente.',
-                );
-              },
+              onTap: () => _abrirTema(context, estado, materia, i),
               padding: const EdgeInsets.all(13),
               child: Row(
                 children: [
@@ -106,6 +98,22 @@ class _ContenidoMateria extends StatelessWidget {
                         ),
                       ],
                     ),
+                  ),
+                  IconButton(
+                    onPressed: () => estado.alternarTema(materia, i),
+                    icon: Icon(
+                      materia.temas[i].completado
+                          ? Icons.check_circle_rounded
+                          : Icons.radio_button_unchecked_rounded,
+                      color: materia.temas[i].completado
+                          ? materia.color
+                          : Colores.gris,
+                      size: 21,
+                    ),
+                    tooltip: materia.temas[i].completado
+                        ? 'Marcar pendiente'
+                        : 'Marcar completado',
+                    visualDensity: VisualDensity.compact,
                   ),
                   const Icon(Icons.chevron_right_rounded, color: Colores.gris),
                 ],

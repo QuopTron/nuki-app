@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'iconos.dart';
+import 'iconos_materia.dart';
 
 part 'modelos_academicos.dart';
 part 'modelos_reels.dart';
@@ -42,6 +43,7 @@ class Materia {
   bool inscrita;
   int get total => temas.length;
   double get avance => total == 0 ? 0 : (completadas / total).clamp(0.0, 1.0);
+  String? get iconoAsset => iconoMateriaPara(nombre);
 
   factory Materia.desdeJson(Map<String, dynamic> j) => Materia(
     id: j['id'] as String? ?? '',

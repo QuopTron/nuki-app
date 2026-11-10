@@ -1,6 +1,6 @@
 import 'fuente_git.dart';
 
-const versionNuki = '1.0.1';
+const versionNuki = '1.0.2';
 const apiNuki = String.fromEnvironment('NUKI_API_URL');
 const apiNukiClave = String.fromEnvironment('NUKI_APP_KEY');
 const usarGitHub = bool.fromEnvironment('NUKI_GITHUB', defaultValue: false);

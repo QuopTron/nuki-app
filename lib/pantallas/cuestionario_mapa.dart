@@ -9,12 +9,13 @@ Future<void> _hojaMapa(
   final contestadas = respuestas.where((r) => r != null).length;
   return showModalBottomSheet<void>(
     context: context,
+    isScrollControlled: true,
     backgroundColor: Colores.fondo,
     shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.vertical(top: Radius.circular(26)),
     ),
     builder: (contexto) => SafeArea(
-      child: Padding(
+      child: SingleChildScrollView(
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -47,7 +48,7 @@ Future<void> _hojaMapa(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         color: respuestas[i] == null
-                            ? Colors.white
+                            ? Colores.cielo
                             : evaluacion.color.withValues(alpha: .16),
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
